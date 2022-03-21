@@ -1,0 +1,504 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "toc_visible": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "qkI60eSaCYWA"
+      },
+      "source": [
+        "Membuat list"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "Buah= ['Apel', 'Mangga', ' Anggur', 'Jeruk']\n",
+        "print(Buah)"
+      ],
+      "metadata": {
+        "id": "AEDVEVsoMRUH"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Menampilkan nilai dengan perulangan"
+      ],
+      "metadata": {
+        "id": "MHEYzTCZMRcb"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "Buah= ['Apel', 'Mangga', 'Anggur', 'Jeruk']\n",
+        "for a in Buah:\n",
+        "    print(a)"
+      ],
+      "metadata": {
+        "id": "YtBc-HZuMRff"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Mengapdate salah satu vlue"
+      ],
+      "metadata": {
+        "id": "nr5dMdR1MRiD"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "Buah =['Mangga', 'Apel', 'Anggur', 'Jeruk']\n",
+        "Buah [1] = 'Alpukat'\n",
+        "for a in Buah:\n",
+        "     print(a)"
+      ],
+      "metadata": {
+        "id": "z6jEaPZNMRkr"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Menghapus salah satu nilai"
+      ],
+      "metadata": {
+        "id": "ns8Gng3eMRnD"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "Buah = ['Apel', 'Mangga', 'Anggur', 'Jeruk']\n",
+        "Buah.remove('Mangga')\n",
+        "for a in Buah:\n",
+        "     print(a)"
+      ],
+      "metadata": {
+        "id": "eIFODJI3MRp4"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Menambah nilai"
+      ],
+      "metadata": {
+        "id": "l38u00iVMRsN"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "Buah = ['Apel', 'Mangga', 'Anggur', 'Jeruk']\n",
+        "Buah.insert(0,'Alpukat')\n",
+        "for a in Buah:\n",
+        "    print(a)"
+      ],
+      "metadata": {
+        "id": "Y6fWRhN2MRxn"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Membuat tuple"
+      ],
+      "metadata": {
+        "id": "OxA1cGsqMR0N"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "Buah=['Apel', 'Mangga', 'Anggur', 'Jeruk',]\n",
+        "print(Buah)"
+      ],
+      "metadata": {
+        "id": "0yL5y5-oMR20"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Menampilkan nilai menggunakan perulangan"
+      ],
+      "metadata": {
+        "id": "JT1XfqajMR7D"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "Buah =['Apel','Mangga','Anggur','Jeruk']\n",
+        "for b in Buah:\n",
+        "    print(b)"
+      ],
+      "metadata": {
+        "id": "eKjy330bMR-D"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Mengapdate salah satu value"
+      ],
+      "metadata": {
+        "id": "Je39fu9MMSA8"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "Buah =['Apel','Mangga','Anggur', 'Jeruk']\n",
+        "Buah [1]='Alpukat'\n",
+        "for b in Buah:\n",
+        "    print(b)"
+      ],
+      "metadata": {
+        "id": "tC2WbQqgMSDh"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Menghapus salah satu nilai"
+      ],
+      "metadata": {
+        "id": "9Ubpd3BFMSIf"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "buah =(\"mangga\", \"apel\", \"jeruk\")\n",
+        "for i in(buah):\n",
+        "     print(i)\n",
+        "buah=list(buah)\n",
+        "buah.remove('mangga')\n",
+        "print(buah)"
+      ],
+      "metadata": {
+        "id": "s3-cmeqTMSLd"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Menambah salah satu nilai"
+      ],
+      "metadata": {
+        "id": "pSd_uBmTMSN_"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "buah =(\"mangga\", \"apel\", \"jeruk\")\n",
+        "for i in(buah):\n",
+        "     print(i)\n",
+        "buah =list(buah)\n",
+        "buah.append('semangka')\n",
+        "print(buah)"
+      ],
+      "metadata": {
+        "id": "sM43Xh38MSQ_"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Membuat set"
+      ],
+      "metadata": {
+        "id": "buxErP_6MSTn"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "buah= {'Apel', 'anggur', 'mangga', 'jeruk'}\n",
+        "print(buah)\n",
+        "print (i)"
+      ],
+      "metadata": {
+        "id": "X9w0v69LMSWM"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Membuat perulangan"
+      ],
+      "metadata": {
+        "id": "g8TJq5PtMSbf"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "buah= {'Apel', 'anggur', 'mangga', 'jeruk'}\n",
+        "for i in(buah):\n",
+        "      print (i)"
+      ],
+      "metadata": {
+        "id": "BKzV9PlfMSfF"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Mengupdate salah satu nilai"
+      ],
+      "metadata": {
+        "id": "B3rQf8wRMSjH"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "buah= {'Apel', 'anggur', 'mangga', 'jeruk'}\n",
+        "buah=list(buah)\n",
+        "buah[1]='kiwi'\n",
+        "print(buah)"
+      ],
+      "metadata": {
+        "id": "VfFh36hjMSmy"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Menghapus salah satu nilai"
+      ],
+      "metadata": {
+        "id": "JcN7ktQ_MSpa"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "buah= {'Apel', 'anggur', 'mangga', 'jeruk'}\n",
+        "buah=list(buah)\n",
+        "buah.remove('mangga')\n",
+        "print(buah)"
+      ],
+      "metadata": {
+        "id": "DOR_2SSiMSsu"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Membuat dictionary"
+      ],
+      "metadata": {
+        "id": "eMwsG3tkMSwK"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "dict_nama= {1:'rahma', 2:'ratna', 3:'fajra'}\n",
+        "print(dict_nama)"
+      ],
+      "metadata": {
+        "id": "MWqOBIiKNwAI"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Membuat perulangan"
+      ],
+      "metadata": {
+        "id": "rHJomW66NwQZ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "dict_nama= {1:'rahma', 2:'ratna', 3:'fajra'}\n",
+        "for i in(dict_nama):\n",
+        "      print(dict_nama)"
+      ],
+      "metadata": {
+        "id": "hNK1Dn2vNwUi"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Mengupdate salah satu value"
+      ],
+      "metadata": {
+        "id": "MT_e2EYHNwYK"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "dict_nama= {1:'rahma', 2:'ratna', 3:'fajra'}\n",
+        "dict_nama[2]='fany'\n",
+        "print(dict_nama)"
+      ],
+      "metadata": {
+        "id": "UZmkJl21Nwmu"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Menghapus key/value"
+      ],
+      "metadata": {
+        "id": "sgBN-H0gOB7a"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "dict_nama= {1:'rahma', 2:'ratna', 3:'fajra'}\n",
+        "a=dict_nama.popitem()\n",
+        "print(dict_nama)"
+      ],
+      "metadata": {
+        "id": "IVMStFsFMSzB"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Menambah value"
+      ],
+      "metadata": {
+        "id": "qXSx5SDZMS2J"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "dict_nama= {1:'rahma', 2:'ratna', 3:'fajra'}\n",
+        "dict_nama[4]='hidayah'\n",
+        "print(dict_nama)"
+      ],
+      "metadata": {
+        "id": "L8d0hPoaMS46"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
